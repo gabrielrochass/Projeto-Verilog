@@ -1,0 +1,43 @@
+$date
+	Sun Sep 24 20:30:52 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench_mux $end
+$var wire 1 ! Q $end
+$var reg 1 " Hz $end
+$var reg 1 # counter $end
+$var reg 1 $ sel $end
+$scope module dut $end
+$var wire 1 " Hz $end
+$var wire 1 # counter $end
+$var wire 1 $ sel $end
+$var reg 1 ! Q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0$
+1#
+0"
+1!
+$end
+#5000
+1"
+0#
+1$
+#10000
+0!
+0$
+#15000
+0"
+1$
+#20000

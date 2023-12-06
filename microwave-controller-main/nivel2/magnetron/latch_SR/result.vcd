@@ -1,0 +1,41 @@
+$date
+	Sun Sep 24 20:57:47 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench_latch_SR $end
+$var wire 1 ! Q $end
+$var reg 1 " reset $end
+$var reg 1 # set $end
+$scope module dut $end
+$var wire 1 " reset $end
+$var wire 1 # set $end
+$var reg 1 ! Q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0#
+1"
+0!
+$end
+#5000
+0"
+#10000
+1!
+1#
+#15000
+0!
+1"
+0#
+#20000
+1#
+#25000

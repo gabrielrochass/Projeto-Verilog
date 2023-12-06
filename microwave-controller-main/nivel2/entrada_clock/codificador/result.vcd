@@ -1,0 +1,77 @@
+$date
+	Sun Sep 24 20:14:21 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench_encoder $end
+$var wire 4 ! BCD [3:0] $end
+$var reg 1 " enablen $end
+$var reg 10 # keyboard [9:0] $end
+$scope module dut $end
+$var wire 1 " enablen $end
+$var wire 10 $ keyboard [9:0] $end
+$var reg 4 % BCD [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1001 %
+b1000000000 $
+b1000000000 #
+0"
+b1001 !
+$end
+#5
+b1000 !
+b1000 %
+b100000000 #
+b100000000 $
+#10
+b111 !
+b111 %
+b10000000 #
+b10000000 $
+#15
+b110 !
+b110 %
+b1000000 #
+b1000000 $
+#20
+b101 !
+b101 %
+b100000 #
+b100000 $
+#25
+b100 !
+b100 %
+b10000 #
+b10000 $
+#30
+b11 !
+b11 %
+b1000 #
+b1000 $
+#35
+b10 !
+b10 %
+b100 #
+b100 $
+#40
+b1 !
+b1 %
+b10 #
+b10 $
+#45
+b0 !
+b0 %
+b1 #
+b1 $
+#50

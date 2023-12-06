@@ -1,0 +1,189 @@
+$date
+	Sun Sep 24 19:32:21 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module count_mod10_testbench $end
+$var wire 1 ! tc $end
+$var wire 1 " count_endTB $end
+$var wire 4 # count [3:0] $end
+$var reg 1 $ clearn $end
+$var reg 1 % clk $end
+$var reg 4 & data [3:0] $end
+$var reg 1 ' en $end
+$var reg 1 ( load $end
+$var integer 32 ) aux [31:0] $end
+$scope module dut $end
+$var wire 1 $ clearn $end
+$var wire 1 % clk $end
+$var wire 4 * data [3:0] $end
+$var wire 1 ' en $end
+$var wire 1 ( load $end
+$var wire 1 ! tc $end
+$var wire 1 " count_end $end
+$var reg 4 + count [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx +
+b1000 *
+bx )
+1(
+0'
+b1000 &
+0%
+1$
+bx #
+x"
+0!
+$end
+#10000
+0"
+b1000 #
+b1000 +
+b0 )
+1%
+0(
+#20000
+b1 )
+0%
+1(
+#30000
+b111 #
+b111 +
+b10 )
+1%
+1'
+#40000
+b11 )
+0%
+#50000
+b110 #
+b110 +
+b100 )
+1%
+#60000
+b101 )
+0%
+#70000
+b101 #
+b101 +
+b110 )
+1%
+#80000
+b111 )
+0%
+#90000
+b100 #
+b100 +
+b1000 )
+1%
+#100000
+b1001 )
+0%
+#110000
+b11 #
+b11 +
+b1010 )
+1%
+#120000
+b1011 )
+0%
+#130000
+b10 #
+b10 +
+b1100 )
+1%
+#140000
+b1101 )
+0%
+#150000
+b1 #
+b1 +
+b1110 )
+1%
+#160000
+b1111 )
+0%
+#170000
+1!
+1"
+b0 #
+b0 +
+b10000 )
+1%
+#180000
+b10001 )
+0%
+#190000
+0!
+0"
+b1001 #
+b1001 +
+b10010 )
+1%
+#200000
+b10011 )
+0%
+#210000
+b1000 #
+b1000 +
+b10100 )
+1%
+#220000
+b10101 )
+0%
+#230000
+b111 #
+b111 +
+b10110 )
+1%
+#240000
+b10111 )
+0%
+#250000
+b110 #
+b110 +
+b11000 )
+1%
+#260000
+b11001 )
+0%
+#270000
+b101 #
+b101 +
+b11010 )
+1%
+#280000
+b11011 )
+0%
+#290000
+b100 #
+b100 +
+b11100 )
+1%
+#300000
+b11101 )
+0%
+#310000
+b11 #
+b11 +
+b11110 )
+1%
+#320000
+b11111 )
+0%
+#330000
+b10 #
+b10 +
+b100000 )
+1%
